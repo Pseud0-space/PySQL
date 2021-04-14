@@ -1,4 +1,5 @@
 # PySQL
+A front end for MySQL based on python3
 This project comprises of 5431 lines of source code and 'Images' folder containing all the required Images for the application 
 
 1. A file named as "MySQL_Password.txt" containing the MySQL root password
