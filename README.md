@@ -1,17 +1,19 @@
+# PySQL
 This project comprises of 5431 lines of source code and 'Images' folder containing all the required Images for the application 
 
-1) A file named as "MySQL_Password.txt" containing the MySQL root password
-2) A file named as "MySQL_DB.txt" containing the name of MySQL Database used
+1. A file named as "MySQL_Password.txt" containing the MySQL root password
+2. A file named as "MySQL_DB.txt" containing the name of MySQL Database used
 
-Python imports - 
+# Python imports - 
 
-1) PyQt5
-2) mysql-connector
-3) cryptography
-4) base64
-5) os
-6) sys
+- PyQt5
+- mysql-connector
+- cryptography
+- base64
+- os
+- sys
 
+# Table and Backend Info
 for the mysql backend it requires 6 tables here is the description of all tables used:-
 table:- feeinfo
 +------------+-------------+------+-----+---------+-------+
