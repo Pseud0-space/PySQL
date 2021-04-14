@@ -15,6 +15,7 @@ This project comprises of 5431 lines of source code and 'Images' folder containi
 - sys
 
 # Table and Backend Info
+,,,
 for the mysql backend it requires 6 tables here is the description of all tables used:-
 table:- feeinfo
 +------------+-------------+------+-----+---------+-------+
@@ -99,3 +100,4 @@ table:- subjectinfo
 | PSYCHOLOGY         | char(250) | YES  |     | NULL    |       |
 | ACCOUNTANCY        | char(250) | YES  |     | NULL    |       |
 +--------------------+-----------+------+-----+---------+-------+
+,,,
