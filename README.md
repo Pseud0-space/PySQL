@@ -19,73 +19,12 @@ for the mysql backend it requires 6 tables here is the description of all tables
 
 ![image](https://github.com/Pseud0-space/PySQL/assets/82369913/e76753f4-1e47-4d91-9a2b-ee6382b1c4e7)
 
-table:- image
-+------------+----------+------+-----+---------+-------+
-| Field      | Type     | Null | Key | Default | Extra |
-+------------+----------+------+-----+---------+-------+
-| Student_ID | int      | YES  |     | NULL    |       |
-| IMAGE      | longblob | NO   |     | NULL    |       |
-+------------+----------+------+-----+---------+-------+
+![image](https://github.com/Pseud0-space/PySQL/assets/82369913/69477478-c7b6-425d-b609-f3bcfbfd8b39)
 
-table:- login
-+-------------+--------------+------+-----+---------+-------+
-| Field       | Type         | Null | Key | Default | Extra |
-+-------------+--------------+------+-----+---------+-------+
-| NAME        | char(255)    | NO   |     | NULL    |       |
-| PASSWORD    | varchar(255) | NO   |     | NULL    |       |
-| CLASS       | int          | YES  |     | NULL    |       |
-| SECTION     | char(3)      | YES  |     | NULL    |       |
-| ROLL_NUMBER | int          | YES  |     | NULL    |       |
-| STUDENT_ID  | int          | YES  |     | NULL    |       |
-+-------------+--------------+------+-----+---------+-------+
+![image](https://github.com/Pseud0-space/PySQL/assets/82369913/e3513835-6087-49be-b836-a0cc1fae5ab5)
 
-table:- personalinfo
-+--------------+--------------+------+-----+---------+-------+
-| Field        | Type         | Null | Key | Default | Extra |
-+--------------+--------------+------+-----+---------+-------+
-| STUDENT_ID   | int          | YES  |     | NULL    |       |
-| NAME         | char(255)    | YES  |     | NULL    |       |
-| FATHER_NAME  | char(255)    | YES  |     | NULL    |       |
-| MOTHER_NAME  | char(255)    | YES  |     | NULL    |       |
-| AGE          | int          | YES  |     | NULL    |       |
-| ADDRESS      | varchar(255) | YES  |     | NULL    |       |
-| PHONE_NUMBER | varchar(255) | YES  |     | NULL    |       |
-+--------------+--------------+------+-----+---------+-------+
+![image](https://github.com/Pseud0-space/PySQL/assets/82369913/66d7a7d0-f32f-4ba3-9496-2171e0304848)
 
-table:-studentinfo
-+-------------+------------+------+-----+---------+-------+
-| Field       | Type       | Null | Key | Default | Extra |
-+-------------+------------+------+-----+---------+-------+
-| STUDENT_ID  | int        | NO   | PRI | NULL    |       |
-| _NAME_      | char(255)  | NO   |     | NULL    |       |
-| CLASS       | int        | YES  |     | NULL    |       |
-| SEC         | varchar(4) | YES  |     | NULL    |       |
-| ROLL_NUMBER | int        | YES  |     | NULL    |       |
-| BLOOD_GROUP | varchar(5) | YES  |     | NULL    |       |
-| GENDER      | char(2)    | YES  |     | NULL    |       |
-+-------------+------------+------+-----+---------+-------+
+![image](https://github.com/Pseud0-space/PySQL/assets/82369913/4d56ed1c-d280-4404-8fc1-b607ce8bff34)
 
-table:- subjectinfo
-+--------------------+-----------+------+-----+---------+-------+
-| Field              | Type      | Null | Key | Default | Extra |
-+--------------------+-----------+------+-----+---------+-------+
-| STUDENT_ID         | int       | NO   |     | NULL    |       |
-| NAME               | char(250) | NO   |     | NULL    |       |
-| CHEMISTRY          | char(250) | YES  |     | NULL    |       |
-| ENGLISH            | char(250) | YES  |     | NULL    |       |
-| BIOLOGY            | char(250) | YES  |     | NULL    |       |
-| HISTORY            | char(250) | YES  |     | NULL    |       |
-| ECONOMICS          | char(250) | YES  |     | NULL    |       |
-| GEOGRAPHY          | char(250) | YES  |     | NULL    |       |
-| SOCIOLOGY          | char(250) | YES  |     | NULL    |       |
-| PHYSICS            | char(250) | YES  |     | NULL    |       |
-| PAINTING           | char(250) | YES  |     | NULL    |       |
-| POLITICAL_SCIENCE  | char(250) | YES  |     | NULL    |       |
-| COMPUTER_SCIENCE   | char(250) | YES  |     | NULL    |       |
-| BUSINESS_STUDIES   | char(250) | YES  |     | NULL    |       |
-| PHYSICAL_EDUCATION | char(250) | YES  |     | NULL    |       |
-| MATHEMATICS        | char(250) | YES  |     | NULL    |       |
-| HOME_SCIENCE       | char(250) | YES  |     | NULL    |       |
-| PSYCHOLOGY         | char(250) | YES  |     | NULL    |       |
-| ACCOUNTANCY        | char(250) | YES  |     | NULL    |       |
-+--------------------+-----------+------+-----+---------+-------+
+![image](https://github.com/Pseud0-space/PySQL/assets/82369913/3cd65d8c-8971-4410-9640-9506f74536ec)
