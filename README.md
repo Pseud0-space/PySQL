@@ -15,7 +15,7 @@ A front end for MySQL based on python3.
 
 # Table and Backend Info
 
-for the mysql backend it requires 6 tables here is the description of all tables used:-
+The mysql database requires 6 tables, here are the descriptions of all tables used:-
 
 ![image](https://github.com/Pseud0-space/PySQL/assets/82369913/e76753f4-1e47-4d91-9a2b-ee6382b1c4e7)
 
