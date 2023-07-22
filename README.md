@@ -16,18 +16,8 @@ A front end for MySQL based on python3.
 # Table and Backend Info
 
 for the mysql backend it requires 6 tables here is the description of all tables used:-
-table:- feeinfo
-+------------+-------------+------+-----+---------+-------+
-| Field      | Type        | Null | Key | Default | Extra |
-+------------+-------------+------+-----+---------+-------+
-| STUDENT_ID | int         | NO   |     | NULL    |       |
-| FEE_ID     | int         | NO   |     | NULL    |       |
-| NAME       | char(250)   | NO   |     | NULL    |       |
-| TOTAL_FEE  | float       | YES  |     | NULL    |       |
-| FEE_PAID   | float       | YES  |     | NULL    |       |
-| FEE_DUE    | float       | YES  |     | NULL    |       |
-| CLASS      | varchar(12) | YES  |     | NULL    |       |
-+------------+-------------+------+-----+---------+-------+
+
+![image](https://github.com/Pseud0-space/PySQL/assets/82369913/e76753f4-1e47-4d91-9a2b-ee6382b1c4e7)
 
 table:- image
 +------------+----------+------+-----+---------+-------+
